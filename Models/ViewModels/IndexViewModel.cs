@@ -5,7 +5,7 @@ namespace Garage3.Models.ViewModels
 
         public class IndexViewModel
         {
-            public IEnumerable<ParkedVehicle> Movies { get; set; } = new List<ParkedVehicle>();
+            public IEnumerable<ParkedVehicle> Garage { get; set; } = new List<ParkedVehicle>();
             public FilterParams FilterParams { get; set; } = new FilterParams();
 
         }
