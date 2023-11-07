@@ -11,4 +11,8 @@ namespace Garage3.Models
         Truck
     }
 
+    public class VehicleViewModel
+    {
+        public VehicleType SelectedVehicleType { get; set; }
+    }
 }
