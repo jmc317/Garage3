@@ -16,7 +16,27 @@ html {
   position: relative;
   min-height: 100%;
 }
+h1
+{
+    color: #white;
+}
 
+p {
+    color: #white;
+}
+
+a {
+    color: #ff6a00;
+}
 body {
-  margin-bottom: 60px;
+    background-color: #1f1f1f;
+    color: ghostwhite;
+    margin-bottom: 60px;
+}
+
+div_car {
+    /* Background pattern from Toptal Subtle Patterns */
+    background-image: url("../images/car.jpg");
+    height: 400px;
+    width: 100%;
 }
